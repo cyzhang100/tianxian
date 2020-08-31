@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-31T09:55:32.847Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="_cfGPHU1QDrFlSJkToCP" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-31T10:00:08.800Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="aV_X6tZgkbfH3Un1zvil" version="13.6.2" type="github">
   <diagram id="3m96XGyh1uDXP2oZvFHU" name="Page-1">
     <mxGraphModel dx="717" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,13 +7,18 @@
         <mxCell id="E3IpSrGtJD2uuIw3716h-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="E3IpSrGtJD2uuIw3716h-1" target="E3IpSrGtJD2uuIw3716h-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="E3IpSrGtJD2uuIw3716h-23" value="估计的位置、协方差矩阵" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E3IpSrGtJD2uuIw3716h-13">
+          <mxGeometry x="-0.3066" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="E3IpSrGtJD2uuIw3716h-1" value="GPS-IMU融合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="E3IpSrGtJD2uuIw3716h-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="E3IpSrGtJD2uuIw3716h-2" target="E3IpSrGtJD2uuIw3716h-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="620" y="450" />
+              <mxPoint x="690" y="450" />
               <mxPoint x="400" y="450" />
             </Array>
           </mxGeometry>
@@ -26,7 +31,7 @@
         <mxCell id="E3IpSrGtJD2uuIw3716h-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E3IpSrGtJD2uuIw3716h-2" target="E3IpSrGtJD2uuIw3716h-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="620" y="450" />
+              <mxPoint x="690" y="450" />
               <mxPoint x="170" y="450" />
             </Array>
           </mxGeometry>
@@ -39,7 +44,7 @@
         <mxCell id="E3IpSrGtJD2uuIw3716h-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="E3IpSrGtJD2uuIw3716h-2" target="E3IpSrGtJD2uuIw3716h-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="620" y="120" />
+              <mxPoint x="700" y="120" />
               <mxPoint x="388" y="120" />
             </Array>
           </mxGeometry>
@@ -49,11 +54,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E3IpSrGtJD2uuIw3716h-2" value="联邦滤波" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="160" width="100" height="235" as="geometry" />
+        <mxCell id="E3IpSrGtJD2uuIw3716h-2" value="联邦滤波&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="100" height="235" as="geometry" />
         </mxCell>
         <mxCell id="E3IpSrGtJD2uuIw3716h-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="E3IpSrGtJD2uuIw3716h-3" target="E3IpSrGtJD2uuIw3716h-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3IpSrGtJD2uuIw3716h-21" value="GPS经纬度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E3IpSrGtJD2uuIw3716h-7">
+          <mxGeometry x="-0.2788" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="E3IpSrGtJD2uuIw3716h-3" value="TBox" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="150" width="120" height="60" as="geometry" />
@@ -64,7 +74,12 @@
         <mxCell id="E3IpSrGtJD2uuIw3716h-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="E3IpSrGtJD2uuIw3716h-5" target="E3IpSrGtJD2uuIw3716h-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E3IpSrGtJD2uuIw3716h-5" value="IMU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="E3IpSrGtJD2uuIw3716h-22" value="yawrate、轮速" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E3IpSrGtJD2uuIw3716h-11">
+          <mxGeometry x="-0.5137" y="1" relative="1" as="geometry">
+            <mxPoint x="18.33" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3IpSrGtJD2uuIw3716h-5" value="IMU、车身" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E3IpSrGtJD2uuIw3716h-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="E3IpSrGtJD2uuIw3716h-6" target="E3IpSrGtJD2uuIw3716h-9">
@@ -75,6 +90,11 @@
         </mxCell>
         <mxCell id="E3IpSrGtJD2uuIw3716h-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="E3IpSrGtJD2uuIw3716h-9" target="E3IpSrGtJD2uuIw3716h-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3IpSrGtJD2uuIw3716h-25" value="估计的位置、协方差矩阵" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E3IpSrGtJD2uuIw3716h-14">
+          <mxGeometry x="-0.3764" y="-2" relative="1" as="geometry">
+            <mxPoint x="16.67" y="-12" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="E3IpSrGtJD2uuIw3716h-9" value="MapMatching融合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="320" width="120" height="80" as="geometry" />
